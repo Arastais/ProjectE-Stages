@@ -1,0 +1,43 @@
+#TODO needs a terminology change (EMC is not very encompassing)
+#Pre-init
+log.projecte_stages.register_event=Registered ProjectE events
+log.projecte_stages.register_cmd=Registered 'projecte' gamestage command
+
+#CraftTweaker
+log.projecte_stages.failed_stage=Could not stage item '%s', no ID found in forge registry! (Most likely means the item is invalid)
+log.projecte_stages.stage=Successfully staged item '%s' (ID %s, Metadata %s) to stage %s.
+log.projecte_stages.failed_unstage=Could not unstage item '%s', no ID found in forge registry! (Most likely means the item is invalid)
+log.projecte_stages.unstage=Successfully unstaged item '%s' (ID %s, Metadata %s) from stage %s.
+log.projecte_stages.unstage_all=Successfully unstaged all variants of '%s' (ID %s) from stage %s.
+log.projecte_stages.unstage_replace=Existing wildcard rule was replaced in the process
+log.projecte_stages.stage_replace=Existing wildcard rule replaced existing specific metadata rules in the process
+log.projecte_stages.wildcard_exists=Item '%s' (ID %s, Metadata %s) is already staged as wildcard metadata
+#CraftTweaker debug
+log.projecte_stages.list_vars=Found variations %s for item '%s'
+
+#Player Learn event-
+message.projecte_stages.deny_learn=You cannot learn %s! Further progression is needed. 
+message.projecte_stages.deny_learn_extra=Item was still consumed for EMC but not learned!
+log.projecte_stages.canceled_learn=Canceled event %s for player '%s' due to not having stage required for item %s. Item was still consumed for EMC!
+
+#Condenser event
+message.projecte_stages.deny_condense=You cannot set the condenser to %s because you haven't learned it yet! Further progession is needed.
+log.projecte_stages.canceled_condense=Canceled event %s for player '%s' due to not having stage required for item %s.
+
+#Tooltip event
+tooltip.projecte_stages.unstaged=You are always able to EMC this item
+tooltip.projecte_stages.locked=You are not able to EMC this item yet! 
+tooltip.projecte_stages.locked_extra=You will lose this item if you try to EMC it!
+tooltip.projecte_stages.unlocked=You are currently able to EMC this item
+tooltip.projecte_stages.info_locked=This item will be unlocked for EMCing at stage '%s'
+tooltip.projecte_stages.info_unlocked=This item was unlocked for EMCing at stage '%s'
+tooltip.projecte_stages.ctrl=Press CTRL to view stage/progression information about this item
+
+#command
+command.projecte_stages.usage=Proper command usage: %s
+command.projecte_stages.num_args=Invalid number of arguments! 
+command.projecte_stages.invalid_stage=Stage '%s' does not exist for any staged items!
+command.projecte_stages.invalid_item=Item '%s' has not been staged!
+command.projecte_stages.invalid_arg=Invalid argument '%s'! 
+command.projecte_stages.stage_header=Items under stage '%s':
+command.projecte_stages.item_header=Stage data for item '%s':
