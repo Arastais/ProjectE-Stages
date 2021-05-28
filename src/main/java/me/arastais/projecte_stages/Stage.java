@@ -1,4 +1,4 @@
-package me.kurus.projecte_stages;
+package me.arastais.projecte_stages;
 
 import java.util.HashSet;
 import java.util.Set;

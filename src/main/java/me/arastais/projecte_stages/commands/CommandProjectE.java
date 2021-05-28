@@ -1,11 +1,11 @@
-package me.kurus.projecte_stages.commands;
+package me.arastais.projecte_stages.commands;
 
 import java.util.function.Supplier;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
-import me.kurus.projecte_stages.ProjectEStages;
-import me.kurus.projecte_stages.Stage;
+import me.arastais.projecte_stages.ProjectEStages;
+import me.arastais.projecte_stages.Stage;
 import net.darkhax.bookshelf.command.Command;
 import net.minecraft.command.CommandException;
 import net.minecraft.command.ICommandSender;
