@@ -1,0 +1,41 @@
+{
+    "_comment": "TODO needs a terminology change (EMC is not very encompassing) and change failed_ to error.",
+    
+    "_comment": "Pre-init",
+    "log.projecte_stages.register_event": "Registered ProjectE events",
+    "log.projecte_stages.register_cmd": "Registered 'projecte_stages' command",
+
+    "_comment": "CraftTweaker",
+    "log.projecte_stages.failed_stage": "Could not stage item '%s', no ID found in forge registry! (Most likely means the item is invalid) [Source: %s]",
+    "log.projecte_stages.stage": "Successfully staged item '%s' (ID %s) to stage(s) %s.",
+    "log.projecte_stages.failed_unstage": "Could not unstage item '%s', no ID found in forge registry! (Most likely means the item is invalid)",
+    "log.projecte_stages.unstage": "Successfully unstaged item '%s' (ID %s) from stage(s) %s.",
+    "log.projecte_stages.unstage_all": "Successfully unstaged all stages for item '%s' (ID %s).",
+    "log.projecte_stages.stage_exists": "Item '%s' (ID %s) already has stage(s) '%s'",
+    "log.projecte_stages.unstage_missing": "Item '%s' (ID %s) already does not have stage(s) '%s'",
+    "log.projecte_stages.unstage_none": "Item '%s' (ID %s) already has no stages (i.e. it was not staged to begin with)",
+
+    "_comment": "Player Learn event-",
+    "message.projecte_stages.deny_learn": "You cannot learn %s! Further progression is needed.",
+    "message.projecte_stages.deny_learn_extra": " Item was still consumed for EMC but not learned!",
+    "log.projecte_stages.canceled_learn": "Canceled event %s for player '%s' due to not having stage required for item %s. Item was still consumed for EMC!",
+
+    "_comment": "Condenser event",
+    "message.projecte_stages.deny_condense": "You cannot set the condenser to %s because you haven't learned it yet! Further progession is needed.",
+    "log.projecte_stages.canceled_condense": "Canceled event %s for player '%s' due to not having stage required for item %s.",
+
+    "_comment": "Tooltip event",
+    "tooltip.projecte_stages.unstaged": "You are always able to EMC this item",
+    "tooltip.projecte_stages.locked": "You are not able to EMC this item yet!",
+    "tooltip.projecte_stages.locked_extra": " You will lose this item if you try to EMC it!",
+    "tooltip.projecte_stages.unlocked": "You are currently able to EMC this item",
+    "tooltip.projecte_stages.info_locked": "This item will be unlocked for EMCing at stage(s) %s (only one is needed)",
+    "tooltip.projecte_stages.info_unlocked": "This item was unlocked for EMCing at stage(s) %s (only one was needed)",
+    "tooltip.projecte_stages.ctrl": "Press CTRL to view stage/progression information about this item",
+
+    "_comment": "Commands",
+    "command.projecte_stages.invalid_stage": "Stage '%s' does not exist for any staged items!",
+    "command.projecte_stages.invalid_item": "Item '%s' has not been staged!",
+    "command.projecte_stages.stage_header": "Items under stage '%s':",
+    "command.projecte_stages.item_header": "Stage data for item '%s':"
+}
