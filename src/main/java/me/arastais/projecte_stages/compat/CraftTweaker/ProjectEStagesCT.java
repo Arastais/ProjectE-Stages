@@ -1,8 +1,8 @@
-package me.kurus.projecte_stages.compat.CraftTweaker;
+package me.arastais.projecte_stages.compat.CraftTweaker;
 
 import crafttweaker.annotations.ZenRegister;
-import me.kurus.projecte_stages.ProjectEStages;
-import me.kurus.projecte_stages.Stage;
+import me.arastais.projecte_stages.ProjectEStages;
+import me.arastais.projecte_stages.Stage;
 import net.darkhax.bookshelf.util.ModUtils;
 import net.darkhax.bookshelf.util.RegistryUtils;
 import net.darkhax.bookshelf.util.StackUtils;

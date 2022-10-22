@@ -1,4 +1,4 @@
-package me.kurus.projecte_stages;
+package me.arastais.projecte_stages;
 
 import java.util.ArrayList;
 import java.util.HashSet;
@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.Optional;
 import java.util.Set;
 
-import me.kurus.projecte_stages.commands.CommandProjectE;
+import me.arastais.projecte_stages.commands.CommandProjectE;
 import moze_intel.projecte.api.event.PlayerAttemptCondenserSetEvent;
 import moze_intel.projecte.api.event.PlayerAttemptLearnEvent;
 import net.darkhax.bookshelf.lib.LoggingHelper;
